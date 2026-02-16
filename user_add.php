@@ -69,7 +69,7 @@ unset($_SESSION['form_data']);
                 <label for="emel" class="form-label">Emel</label>
                 <input type="email" class="form-control <?php echo ($error_field === 'emel') ? 'is-invalid' : ''; ?>"
                     id="emel" name="emel"
-                    placeholder="Cth: ali@mpk.gov.my"
+                    placeholder="Cth: ali@organisasi.gov.my"
                     value="<?php echo isset($form_data['emel']) ? htmlspecialchars($form_data['emel']) : ''; ?>">
                 <?php if ($error_field === 'emel'): ?>
                 <div class="invalid-feedback">Emel ini sudah digunakan. Sila gunakan emel yang lain.</div>

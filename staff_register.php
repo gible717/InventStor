@@ -140,7 +140,7 @@ $jabatan_result = $conn->query($sql);
 
                 <div class="mb-3">
                     <label for="emel" class="form-label">Emel <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control" id="emel" name="emel" placeholder="Contoh: nama@mpk.gov.my" required>
+                    <input type="email" class="form-control" id="emel" name="emel" placeholder="Contoh: nama@organisasi.gov.my" required>
                 </div>
 
                 <div class="mb-3">

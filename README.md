@@ -132,10 +132,12 @@ inventstor/
    ```
 
 3. **Create the database**
-   ```sql
-   CREATE DATABASE storeroom_db;
+   Import via command line:
+   ```bash
+   mysql -u root < database/schema.sql
+   mysql -u root storeroom_db < database/seed_data.sql
    ```
-   Import the provided SQL schema/dump file.
+   Or import both files via phpMyAdmin (Import tab).
 
 4. **Replace branding assets** in `assets/img/`:
    - `logo.png` - Your organization logo (used in reports and login)
