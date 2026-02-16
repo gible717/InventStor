@@ -12,7 +12,7 @@ USE storeroom_db;
 -- 1. DEFAULT DEPARTMENTS
 -- ============================================
 INSERT INTO jabatan (nama_jabatan) VALUES
-('Unit Teknologi Maklumat'),
+('Jabatan IT'),
 ('Jabatan Kewangan'),
 ('Jabatan Pentadbiran'),
 ('Jabatan Kejuruteraan'),
@@ -24,7 +24,7 @@ INSERT INTO jabatan (nama_jabatan) VALUES
 -- Password: User123
 -- Hashed with: password_hash('User123', PASSWORD_BCRYPT)
 
-SET @dept_it = (SELECT ID_jabatan FROM jabatan WHERE nama_jabatan = 'Unit Teknologi Maklumat' LIMIT 1);
+SET @dept_it = (SELECT ID_jabatan FROM jabatan WHERE nama_jabatan = 'Jabatan IT' LIMIT 1);
 
 INSERT INTO staf (ID_staf, nama, kata_laluan, is_admin, emel, jawatan, ID_jabatan, is_first_login) VALUES
 ('A001', 'Admin Sistem', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 1, 'admin@example.com', 'Pentadbir Sistem', @dept_it, 1);

@@ -165,7 +165,7 @@ inventstor/
 | Role | ID | Password |
 |------|-----|----------|
 | Admin | A001 | User123 |
-| Staff | S001 | User123 |
+| Staff | S0001 | User123 |
 
 > Change these passwords immediately after first login.
 

@@ -2,8 +2,8 @@
 DirectoryIndex index.php
 
 # The 404 rule we already added
-ErrorDocument 404 /storeroom/404.php
-ErrorDocument 500 /storeroom/500.php
+ErrorDocument 404 /inventstor/404.php
+ErrorDocument 500 /inventstor/500.php
 
 # ============================================
 # GZIP COMPRESSION - Faster page loading
