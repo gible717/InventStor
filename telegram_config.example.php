@@ -26,6 +26,6 @@ define('MONTHLY_REMINDER_ENABLED', true); // Set to false to disable monthly rem
 define('MONTHLY_REMINDER_TIME', '09:00');
 
 // System URL for login link in notifications
-// Change this to your production URL when deploying (e.g., 'https://yourdomain.com/storeroom')
-define('SYSTEM_BASE_URL', 'http://localhost/storeroom');
+// Change this to your production URL when deploying (e.g., 'https://yourdomain.com/inventstor')
+define('SYSTEM_BASE_URL', 'http://localhost/inventstor');
 ?>

@@ -17,7 +17,7 @@
  *
  * Or for Windows Task Scheduler:
  * Program: C:\laragon\bin\php\php-8.x.x\php.exe
- * Arguments: C:\laragon\www\storeroom\cron_monthly_reminder.php
+ * Arguments: C:\laragon\www\inventstor\cron_monthly_reminder.php
  * Schedule: Daily at 9:00 AM
  */
 
